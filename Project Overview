@@ -1,0 +1,48 @@
+To do:
+lägg till kommentarer till de testfall/kod ni ska ta med som ex på TDD
+Ändra namn på testfall/kod ni ska ta med som ex på TDD om det behövs
+
+kolla igenom att allt från Character granskning är klart (ALLA)
+profiler - hur använda? (IDA)
+göra om ekvivalensklasspartitionering (PAULINA)
+diskutera mått som är intressanta
+skriv rapporten
+nytt klassdiagram
+
+Klasser:
+
+Position - Motsvarar var spelaren/objektet/monstret befinner sig på kartan. När spelaren nått slutpositionen så vinner man. 
+
+Level - Kommer ha en 2D array med MapElement objekt. Ritar ut själva gameplay:et
+
+Game - innehåller main metoden. Startar ett nytt spel
+
+MapElement (superklass) - Kommer vara objekt på kartan som spelaren kan interagera med. Vi skapar subklasser som t.ex. monster och items.
+
+Character (ärver av MapElement)- Har liv och hastighet, dessa  kan ändras under spelets gång. När livet når noll så förlorar spelaren.
+Hastighet: hur många steg spelaren rör sig på ett "knapptryck"/en omgång
+Båda attributen har max och min värde. Styrka? 
+Har en lista av Items som den plockat upp. Om man plockar upp vapen så drar det ner på speed kanske?
+XP ?
+
+Item (ärver av MapElement)- kan tas upp av spelaren för att ändra attribut (speed, life, strength). Kan vara tidsbestämda 
+(försvinenr efter ett visst antal omgångar),
+
+Monster(ärver av MapElement) - kan göra skada på spelaren, kan dö och vinna. Har styrka, liv, osynlighet? Kan innehålla Items som Charactern
+får vid besegring av monstret 
+
+Funktionalitet:
+- Dö, dvs tillbaka till start, återfå health för spelare (och monster?) MOUTASEM
+- Olika skada beroende på monster, typ ändra färdighet
+- mål för att "få" vinna, t ex nyckel, antal xp, besegrat alla monster, Ekvivalensklassuppdelning?
+ (inkl. Vinna, dvs byte av karta. (Hur?) ) PAULINA
+- Levla upp (välja färdighet att utveckla) (blanda ej ihop med term spellevel) IDA
+- Tavern, köpa och sälja saker?
+
+
+Diskussion:
+- bör kontroll ske för position? Bör läggas in i level klassen istället? Komplicerar till det när man försöker gå utanför kartan. 
+- blanda inte ihop termerna för att levla upp egenskap och levla upp spellevel
+- vi har skrivit om att vid vinst så ska det ske byte av level men hur ska detta assertas? Detta borde ju snarare ske i Game-klassen 
+eftersom Level-instansen "stängs ner"
+- ska vi ta bort printMap och allt det som är kopplat till det grafiska

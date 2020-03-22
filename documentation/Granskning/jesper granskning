@@ -1,0 +1,14 @@
+1. gameMap[0][2] = item; 2 ggr i initialize()
+2. Bör vi inte skicka in en Position istället för xPos och yPos i konstruktorn?
+3. Vi bör inte kalla instansmetoder i konstruktorn, kan vi lägga initialize() koden i konstruktorn istället?
+4. levelName kan vara privat
+5. Många publika metoder som bör vara privata. Dock kan dessa ej testas då. Därför bör de vara package protected (testat att detta fungerar)
+6. Dåliga metodnamn: setOnMap()
+7. checkInput() kan returnera värdet direkt, alltså return ... koden som finns där.
+8. Diverse get metoder behövs inte om de görs till package protected.
+9. checkInput bör kanske returnerna den korrekta strängen istället? Då kan vi få det såhär: String s = checkInput(input.nextLine());. Då kommer även if checken i run() endast kolla isMovePossible
+10. isMapPosOccupied kan returnera värdet direkt
+11. lägga till en default sats i moveCharacter, hantera om någon skriver in ogiltig bokstav
+12. Kommentarer: Inte mycket att säga, det är väldigt dåligt just nu
+
+

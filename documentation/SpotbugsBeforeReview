@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="1" timestamp="1571901205314" analysisTimestamp="1571901203242" release="">
+  <Project projectName="Projekt">
+    <Jar>/Users/paulinakekkonen/Documents/GitHub/INTE/target/classes</Jar>
+    <Jar>/Users/paulinakekkonen/Documents/GitHub/INTE/target/test-classes</Jar>
+    <AuxClasspathEntry>/Users/paulinakekkonen/Documents/GitHub/INTE/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/paulinakekkonen/Documents/GitHub/INTE/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/paulinakekkonen/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/paulinakekkonen/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/paulinakekkonen/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/paulinakekkonen/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/paulinakekkonen/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/paulinakekkonen/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.api_5.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.engine_5.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.migrationsupport_5.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.params_5.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.commons_1.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.engine_1.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.launcher_1.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.runner_1.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.suite.api_1.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.vintage.engine_5.1.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.opentest4j_1.0.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apiguardian_1.0.0.v20180327-1502.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/paulinakekkonen/Documents/GitHub/INTE/src/main/java</SrcDir>
+    <SrcDir>/Users/paulinakekkonen/Documents/GitHub/INTE/src/test/resources</SrcDir>
+    <SrcDir>/Users/paulinakekkonen/Documents/GitHub/INTE/src/main/resources</SrcDir>
+    <SrcDir>/Users/paulinakekkonen/Documents/GitHub/INTE/src/test/java</SrcDir>
+  </Project>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="Key">
+      <SourceLine classname="Key" sourcefile="Key.java" sourcepath="Key.java"/>
+    </Class>
+    <Method classname="Key" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="Key" start="14" end="17" startBytecode="0" endBytecode="108" sourcefile="Key.java" sourcepath="Key.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DM_CONVERT_CASE" priority="3" rank="20" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Level">
+      <SourceLine classname="Level" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Class>
+    <Method classname="Level" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="Level" start="58" end="74" startBytecode="0" endBytecode="177" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Method>
+    <SourceLine classname="Level" start="63" end="63" startBytecode="22" endBytecode="22" sourcefile="Level.java" sourcepath="Level.java"/>
+    <SourceLine classname="Level" start="63" end="63" startBytecode="22" endBytecode="22" sourcefile="Level.java" sourcepath="Level.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Level">
+      <SourceLine classname="Level" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Class>
+    <Method classname="Level" name="&lt;init&gt;" signature="(IILCharacter;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="Level" start="16" end="23" startBytecode="0" endBytecode="194" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="Level" start="4" end="4" startBytecode="12" endBytecode="12" sourcefile="Level.java" sourcepath="Level.java"/>
+    <SourceLine classname="Level" start="4" end="4" startBytecode="12" endBytecode="12" sourcefile="Level.java" sourcepath="Level.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="3" rank="20" abbrev="UrF" category="STYLE" first="1">
+    <Class classname="Level">
+      <SourceLine classname="Level" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Class>
+    <Field classname="Level" name="levelName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="Level" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Field>
+    <SourceLine classname="Level" start="19" end="19" startBytecode="69" endBytecode="69" sourcefile="Level.java" sourcepath="Level.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="Level">
+      <SourceLine classname="Level" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Class>
+    <Field classname="Level" name="startPosition" signature="LPosition;" isStatic="false">
+      <SourceLine classname="Level" start="6" end="6" startBytecode="0" endBytecode="0" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="1">
+    <Class classname="Level">
+      <SourceLine classname="Level" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Class>
+    <Field classname="Level" name="unOccupied" signature="LMapElement;" isStatic="false">
+      <SourceLine classname="Level" sourcefile="Level.java" sourcepath="Level.java"/>
+    </Field>
+    <SourceLine classname="Level" start="36" end="36" startBytecode="93" endBytecode="93" sourcefile="Level.java" sourcepath="Level.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="3" rank="15" abbrev="UwF" category="CORRECTNESS" first="1">
+    <Class classname="MapElement">
+      <SourceLine classname="MapElement" sourcefile="MapElement.java" sourcepath="MapElement.java"/>
+    </Class>
+    <Field classname="MapElement" name="spaceOccupied" signature="Z" isStatic="false">
+      <SourceLine classname="MapElement" sourcefile="MapElement.java" sourcepath="MapElement.java"/>
+    </Field>
+    <SourceLine classname="MapElement" start="10" end="10" startBytecode="5" endBytecode="5" sourcefile="MapElement.java" sourcepath="MapElement.java"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="Position">
+      <SourceLine classname="Position" sourcefile="Position.java" sourcepath="Position.java"/>
+    </Class>
+    <Method classname="Position" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="Position" start="39" end="44" startBytecode="0" endBytecode="136" sourcefile="Position.java" sourcepath="Position.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="3" rank="19" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="TestCharacter">
+      <SourceLine classname="TestCharacter" sourcefile="TestCharacter.java" sourcepath="TestCharacter.java"/>
+    </Class>
+    <Method classname="TestCharacter" name="TestLifeInCharacter" signature="()V" isStatic="false">
+      <SourceLine classname="TestCharacter" start="11" end="12" startBytecode="0" endBytecode="58" sourcefile="TestCharacter.java" sourcepath="TestCharacter.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="3" rank="19" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="TestCharacter">
+      <SourceLine classname="TestCharacter" sourcefile="TestCharacter.java" sourcepath="TestCharacter.java"/>
+    </Class>
+    <Method classname="TestCharacter" name="TestSpeedInCharacter" signature="()V" isStatic="false">
+      <SourceLine classname="TestCharacter" start="16" end="18" startBytecode="0" endBytecode="57" sourcefile="TestCharacter.java" sourcepath="TestCharacter.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 24 Oct 2019 08:16:31 +0200" total_classes="15" referenced_classes="38" total_bugs="10" total_size="732" num_packages="1" java_version="12" vm_version="12+33" cpu_seconds="61.89" clock_seconds="213.66" peak_mbytes="1181.54" alloc_mbytes="1024.00" gc_seconds="0.10" priority_3="5" priority_2="2" priority_1="3">
+    <PackageStats package="" total_bugs="10" total_types="15" total_size="732" priority_3="5" priority_2="2" priority_1="3">
+      <ClassStats class="Character" sourceFile="Character.java" interface="false" size="155" bugs="0"/>
+      <ClassStats class="Game" sourceFile="Game.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="GameTest" sourceFile="GameTest.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="Item" sourceFile="Item.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="Key" sourceFile="Key.java" interface="false" size="15" bugs="1" priority_1="1"/>
+      <ClassStats class="Level" sourceFile="Level.java" interface="false" size="126" bugs="5" priority_3="2" priority_2="2" priority_1="1"/>
+      <ClassStats class="MapElement" sourceFile="MapElement.java" interface="false" size="9" bugs="1" priority_3="1"/>
+      <ClassStats class="Monster" sourceFile="Monster.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="Position" sourceFile="Position.java" interface="false" size="27" bugs="1" priority_1="1"/>
+      <ClassStats class="Potion" sourceFile="Potion.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="TestCharacter" sourceFile="TestCharacter.java" interface="false" size="98" bugs="2" priority_3="2"/>
+      <ClassStats class="TestItem" sourceFile="TestItem.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="TestLevel" sourceFile="TestLevel.java" interface="false" size="186" bugs="0"/>
+      <ClassStats class="TestMonster" sourceFile="TestMonster.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="TestPosition" sourceFile="TestPosition.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="401" invocations="488" avgMicrosecondsPerInvocation="823" maxMicrosecondsPerInvocation="4789" standardDeviationMicrosecondsPerInvocation="1174"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="235" invocations="2" avgMicrosecondsPerInvocation="117520" maxMicrosecondsPerInvocation="207673" standardDeviationMicrosecondsPerInvocation="90152"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="213" invocations="485" avgMicrosecondsPerInvocation="440" maxMicrosecondsPerInvocation="6137" standardDeviationMicrosecondsPerInvocation="813"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="69" invocations="141" avgMicrosecondsPerInvocation="496" maxMicrosecondsPerInvocation="2671" standardDeviationMicrosecondsPerInvocation="542"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="57" invocations="38" avgMicrosecondsPerInvocation="1503" maxMicrosecondsPerInvocation="10030" standardDeviationMicrosecondsPerInvocation="2330"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="56" invocations="141" avgMicrosecondsPerInvocation="397" maxMicrosecondsPerInvocation="3117" standardDeviationMicrosecondsPerInvocation="432"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="48" invocations="142" avgMicrosecondsPerInvocation="342" maxMicrosecondsPerInvocation="3537" standardDeviationMicrosecondsPerInvocation="424"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="48" invocations="141" avgMicrosecondsPerInvocation="340" maxMicrosecondsPerInvocation="1395" standardDeviationMicrosecondsPerInvocation="256"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="47" invocations="250" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="1291" standardDeviationMicrosecondsPerInvocation="199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="44" invocations="141" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="3753" standardDeviationMicrosecondsPerInvocation="397"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="44" invocations="38" avgMicrosecondsPerInvocation="1175" maxMicrosecondsPerInvocation="10756" standardDeviationMicrosecondsPerInvocation="2157"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="41" invocations="20" avgMicrosecondsPerInvocation="2078" maxMicrosecondsPerInvocation="3831" standardDeviationMicrosecondsPerInvocation="1473"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="35" invocations="141" avgMicrosecondsPerInvocation="249" maxMicrosecondsPerInvocation="1307" standardDeviationMicrosecondsPerInvocation="216"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="31" invocations="102" avgMicrosecondsPerInvocation="305" maxMicrosecondsPerInvocation="4060" standardDeviationMicrosecondsPerInvocation="489"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="26" invocations="448" avgMicrosecondsPerInvocation="58" maxMicrosecondsPerInvocation="1955" standardDeviationMicrosecondsPerInvocation="128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="23" invocations="38" avgMicrosecondsPerInvocation="624" maxMicrosecondsPerInvocation="6751" standardDeviationMicrosecondsPerInvocation="1156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="19" invocations="15" avgMicrosecondsPerInvocation="1281" maxMicrosecondsPerInvocation="5579" standardDeviationMicrosecondsPerInvocation="1793"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="17" invocations="38" avgMicrosecondsPerInvocation="472" maxMicrosecondsPerInvocation="5354" standardDeviationMicrosecondsPerInvocation="929"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="15" invocations="38" avgMicrosecondsPerInvocation="409" maxMicrosecondsPerInvocation="3301" standardDeviationMicrosecondsPerInvocation="697"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="15" invocations="15" avgMicrosecondsPerInvocation="1037" maxMicrosecondsPerInvocation="4496" standardDeviationMicrosecondsPerInvocation="1307"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="15" invocations="38" avgMicrosecondsPerInvocation="404" maxMicrosecondsPerInvocation="5774" standardDeviationMicrosecondsPerInvocation="950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="15" invocations="141" avgMicrosecondsPerInvocation="108" maxMicrosecondsPerInvocation="534" standardDeviationMicrosecondsPerInvocation="63"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="13" invocations="38" avgMicrosecondsPerInvocation="345" maxMicrosecondsPerInvocation="2945" standardDeviationMicrosecondsPerInvocation="657"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1571901205313" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
